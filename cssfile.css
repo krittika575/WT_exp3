@@ -1,0 +1,56 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  /* Control the left side */
+  .left {
+    left: 0;
+    background-color: #596eb2;
+    flex: 1;
+            
+            border: 1px solid black;
+            width: 25%;
+  }
+  
+  /* Control the right side */
+  .right {
+    right: 0;
+    background-color: rgb(247, 241, 241);
+    flex: 3;
+
+            border: 1px solid black;
+            width: 75%;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .left-frame img {
+    position: center; /* Absolute positioning for the image */
+    top: 40px; /* Adjust as needed */
+    left: 40px; /* Adjust as needed */
+    height: 200px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+    clip-path: circle(50%); /* Apply circular shape to the image */
+}
+.left-frame ul {
+    list-style-type: none;
+    padding: 0;
+}
+.left-frame ul li {
+    cursor: pointer;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.left-frame ul li:hover {
+    background-color: #f0f0f0;
+}
