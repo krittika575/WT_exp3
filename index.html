@@ -1,146 +1,141 @@
-<html><head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-    <link rel="stylesheet" href="cssfile.css">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RESUME</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <style>
-        #contact{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: large;
+        body {
+            background-color: #f7e1d7;
+        }
+
+        .sidebar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            height: 100%;
+            width: 250px;
+            background-color: #343a40; 
+            padding-top: 15px;
+        }
+
+        .sidebar a {
+            color: #000000; 
+        }
+
+        .content {
+            margin-left: 250px; 
         }
     </style>
-    </head>
-    <body bgcolor="f7e1d7">
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-        <center>
-        <h1><b>RESUME</b></h1></center>
-        <hr>
-        <div class="split left">
-        <div class="centered">   
-        <div class="left-frame img">
-            <div class="left-frame ul">
-            <div class="left-frame ul li">
-            <div class="left-frame ul li">
-                <img src="22ITR053 PHOTO.jpg" class="rounded" align="right"  height="175" width="175"><br>
-        
-       
-        
-        <a href="#job"  class="text-white btn-sm ">Job Objective</a><br>
-        <a href="#Educational" class="text-white btn-sm">Educational Qualification</a><br>
-        <a href="#technology" class="text-white  btn-sm">Technology Stack</a><br>
-        <a href="#project" class="text-white  btn-sm">Projects</a><br>
-        <a href="#paper" class="text-white  btn-sm">Paper Presented</a><br>
-        <a href="#leader" class="text-white btn-sm">Leadership Quality</a><br>
-        <a href="#industry" class="text-white  btn-sm">Industry Collobration</a><br>
-        <a href="#hobbies" class="text-white  btn-sm">Hobbies</a><br>
-        <a href="#personal" class="text-white  btn-sm">Personal Details</a><br>
-
-        </div>
-    </div> </div> </div></div></div>
-    
-    <div class="split right">
-        
-    <h2>Krittika R</h2>
-    <pre id="contact">
-    <b>Mobile:</b> +91 9123517679
-
-    <b>Email ID:</b>krittikar.22it@kongu.edu
-    
-    <b>Address:</b> 4/80,Ponnagar.Kondalam post,Paramathi velur,Namakkal.
-    
-</pre>
-    <hr>
-    
-    <div class=" bg-dark text-white "><h3>Job Objective</h3></div>
-
-    <P> To apply my IT expertise in problem-solving, system optimization, and security to contribute to organizational success. Seeking a challenging role for professional growth and innovation.</P>
-    <div class=" bg-dark text-white ">
-    <h3>Educational Qualification</h3>
-    </div>
-    <table class="table" border="4">
-        <colgroup><col span="3" bgcolor="cccccc">
-        <col bgcolor="8ac6d0">
-    </colgroup>
-        <tr>
-            <th scope="col">Name of Degree</th>
-            <th scope="col">School/Institute</th>
-            <th scope="col">Percentage/CGPA</th>
-            <th scope="col">Year of passing</th>
-        </tr>
-        <tr>
-            <td>SSLC</td>
-            <td>The Navodaya Academy</td>
-            <td>75%</td>
-            <td>2020</td>
-        </tr>
-        <td>HLC</td>
-            <td>The Navodaya Academy</td>
-            <td>78%</td>
-            <td>2022</td>
-        </tr>
-        <td>btech IT</td>
-            <td>Kongu Engineering College</td>
-            <td>8.01</td>
-            <td>2023</td>
-        </tr>
-        
-    
-    </table>
-    <div class=" bg-dark text-white ">
-        <h3>Technology Stack</h3>
-        </div>
-        
-        <ul><li>C programming</li>
-        <li>Front End Developing</li>
-        <li>Computer Organization</li></ul>
-        <div class=" bg-dark text-white ">
-            <h3>Projects</h3>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-4 sidebar">
+            <div class="text-center mb-5">
+                <img src="22ITR053 PHOTO.jpg" class="rounded" height="175" width="175">
             </div>
+            <div class="list-group">
+                <a href="#job" class="list-group-item list-group-item-action">Job Objective</a>
+                <a href="#Educational" class="list-group-item list-group-item-action">Educational Qualification</a>
+                <a href="#technology" class="list-group-item list-group-item-action">Technology Stack</a>
+                <a href="#project" class="list-group-item list-group-item-action">Projects</a>
+                <a href="#paper" class="list-group-item list-group-item-action">Paper Presented</a>
+                <a href="#leader" class="list-group-item list-group-item-action">Leadership Quality</a>
+                <a href="#industry" class="list-group-item list-group-item-action">Industry Collaboration</a>
+                <a href="#hobbies" class="list-group-item list-group-item-action">Hobbies</a>
+                <a href="#personal" class="list-group-item list-group-item-action">Personal Details</a>
+            </div>
+        </div>
+        <div class="col-md-8 content">
+            <h1 class="text-center">Krittika R</h1>
+            <pre class="contact">
+                <b>Mobile:</b> +91 9123517679
+                <b>Email ID:</b> krittikar.22it@kongu.edu
+                <b>Address:</b> 4/80, Ponnagar, Kondalam post, Paramathi velur, Namakkal.
+            </pre>
+            <hr>
+            <div class="bg-dark text-white   p-2"><h3>Job Objective</h3></div>
+            <p>To apply my IT expertise in problem-solving, system optimization, and security to contribute to organizational success. Seeking a challenging role for professional growth and innovation.</p>
+            <div class="bg-dark text-white p-2"><h3>Educational Qualification</h3></div>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Name of Degree</th>
+                    <th scope="col">School/Institute</th>
+                    <th scope="col">Percentage/CGPA</th>
+                    <th scope="col">Year of passing</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>SSLC</td>
+                    <td>The Navodaya Academy</td>
+                    <td>75%</td>
+                    <td>2020</td>
+                </tr>
+                <tr>
+                    <td>HLC</td>
+                    <td>The Navodaya Academy</td>
+                    <td>78%</td>
+                    <td>2022</td>
+                </tr>
+                <tr>
+                    <td>B.Tech IT</td>
+                    <td>Kongu Engineering College</td>
+                    <td>8.01</td>
+                    <td>2023</td>
+                </tr>
+                </tbody>
+            </table>
+            <div class="bg-dark text-white p-2"><h3>Technology Stack</h3></div>
+            <ul>
+                <li>C programming</li>
+                <li>Front End Developing</li>
+                <li>Computer Organization</li>
+            </ul>
+            <div class="bg-dark text-white p-2"><h3>Projects</h3></div>
             <ol>
                 <li>Hangman in Python</li>
                 <li>BMI Calculator using Android Studio</li>
-                <li>Hostel Management System in java using AWT</li>
+                <li>Hostel Management System in Java using AWT</li>
                 <li>Countdown Timer</li>
             </ol>
-            <div class=" bg-dark text-white">
-                <h3>Paper Presented </h3>
-                </div> 
-                <ol>
-                    <li>Movie Recommedation presented in Kongu Engineering College</li>
-                    <li>Big Data Technology in Kongu Engineering College</li>
-                </ol>
-                <div id=leader style="background-color: black; color:white;">
-                    <h3>Leadership Quality</h3>
-                    </div> 
-                    <ul type="circle"><li>Class Respresentative in semester-3</li>
-                        <li>Executive Member in Karate and Martial Arts Club</li>
-                        <li>Executive Member in Rotract Club</li>
-                        <li>Active Member in NSS</li></ul>
-                        <div id=industry style="background-color: black; color:white;">
-                            <h3>Industry Collobration</h3>
-                            </div>
-                            <ul><li>Industrial visit-Atees Global IT Solution Provider at Thrissur</li>
-                                <li>Implant Training-Ratix Info Tech at Erode(5 days)</li>
-                                </ul>
-                            
-                        <div class=" bg-dark text-white ">
-                            <h3>Hobbies</h3>
-                            </div>
-                            <ul type="square" >
-                                <li>Doodling</li>
-                                <li>Reading Books</li>
-                                <li>Baking</li>
-                            </ul>
-                            <div class=" bg-dark text-white">
-                                <h3>Personal details</h3>
-                                </div>
-                                <b>Date of Birth </b>: 05.07.2005<br>
-                                <b>Father's Name</b> : Ravichandran K<br>
-                                <b>Mother's Name </b>: Rameswari R<br>
-                                <b>Nationality </b>: Indian<br>
-                                <b>Languages Known</b> : Tamil,English
-                                <br>
-                            </div>
-    </body>
-    </html>
+            <div class="bg-dark text-white p-2"><h3>Paper Presented</h3></div>
+            <ol>
+                <li>Movie Recommendation presented in Kongu Engineering College</li>
+                <li>Big Data Technology in Kongu Engineering College</li>
+            </ol>
+            <div id="leader" class="bg-dark text-white p-2"><h3>Leadership Quality</h3></div>
+            <ul>
+                <li>Class Representative in semester-3</li>
+                <li>Executive Member in Karate and Martial Arts Club</li>
+                <li>Executive Member in Rotaract Club</li>
+                <li>Active Member in NSS</li>
+            </ul>
+            <div id="industry" class="bg-dark text-white p-2"><h3>Industry Collaboration</h3></div>
+            <ul>
+                <li>Industrial visit-Atees Global IT Solution Provider at Thrissur</li>
+                <li>Implant Training-Ratix Info Tech at Erode(5 days)</li>
+            </ul>
+            <div class="bg-dark text-white p-2"><h3>Hobbies</h3></div>
+            <ul>
+                <li>Doodling</li>
+                <li>Reading Books</li>
+                <li>Baking</li>
+            </ul>
+            <div class="bg-dark text-white  p-2"><h3>Personal details</h3></div>
+            <p><b>Date of Birth:</b> 05.07.2005<br>
+            <b>Father's Name:</b> Ravichandran K<br>
+            <b>Mother's Name:</b> Rameswari R<br>
+            <b>Nationality:</b> Indian<br>
+            <b>Languages Known:</b> Tamil, English</p>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+</body>
+</html>
